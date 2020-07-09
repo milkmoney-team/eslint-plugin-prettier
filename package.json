@@ -32,7 +32,7 @@
   },
   "peerDependencies": {
     "eslint": ">=5.0.0",
-    "prettier": ">=1.13.0"
+    "@btmills/prettier": "^2.0.5"
   },
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",

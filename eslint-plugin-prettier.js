@@ -165,7 +165,7 @@ module.exports = {
           Program() {
             if (!prettier) {
               // Prettier is expensive to load, so only load it if needed.
-              prettier = require('prettier');
+              prettier = require('@btmills/prettier');
             }
 
             const eslintPrettierOptions = context.options[0] || {};
